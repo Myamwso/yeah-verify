@@ -29,7 +29,7 @@ class GetProxyIp
 
         $this->redis = new \Redis();
         $this->redis->connect('127.0.0.1', 6379); //连接Redis
-        $this->redis->auth('dw5w@%wZx'); //密码验证
+        $this->redis->auth('*****'); //密码验证
         $this->redis->select(0);//选择数据库2
     }
 

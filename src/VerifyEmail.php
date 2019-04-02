@@ -3,15 +3,15 @@
   /**
    *  Verifies email address by attempting to connect and check with the mail server of that account
    *
-   *  Author: Sam Battat hbattat@msn.com
-   *          http://github.com/hbattat
+   *  Author: huangjie 362223016@qq.com
+   *          https://github.com/Myamwso/yeah-verify
    *
    *  License: This code is released under the MIT Open Source License. (Feel free to do whatever)
    *
    *  Last update: Oct 11 2016
    *
    * @package VerifyEmail
-   * @author  Husam (Sam) Battat <hbattat@msn.com>
+   * @author  huangjie Battat <362223016@qq.com>
    * This is a test message for packagist
    */
 
