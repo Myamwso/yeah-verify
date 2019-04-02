@@ -1,5 +1,5 @@
 <?php
-  namespace hbattat;
+  namespace myamwso;
   /**
    *  Verifies email address by attempting to connect and check with the mail server of that account
    *
@@ -57,17 +57,17 @@
       $this->resultFile = '/4T/www/huangj/yeah';
       $this->host = '127.0.0.1';
       $this->dbName = 'ym_mail';
-      $this->userName = '******';
-      $this->password = '******';
+      $this->userName = 'ym_mail';
+      $this->password = 'sKSdiGjbaR';
       $this->mailTable = 'test';
       $this->proxy = new GetProxyIp();
       $this->proxyKey = 'mail_yeah:proxy_ip_0';
-      $this->proxyValue = '********';
+      $this->proxyValue = '*****';
       $this->set_port($port);
 
       $this->redis = new \Redis();
       $this->redis->connect('127.0.0.1', 6379); //连接Redis
-      $this->redis->auth('*******'); //密码验证
+      $this->redis->auth('dw5w@%wZx'); //密码验证
       $this->redis->select(0);//选择数据库2
     }
 
