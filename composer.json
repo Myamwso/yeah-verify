@@ -1,0 +1,16 @@
+{
+    "name": "myamwso/yeah-verify",
+    "description": "try make a composer package about 163registration verify",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "huangjie",
+            "email": "huangjie@ymify.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=5.6"
+    }
+}
